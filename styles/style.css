@@ -311,6 +311,7 @@
   gap: 40px;
 }
 .step {
+  display: flex;
   flex-basis: 220px;
 }
 
@@ -357,8 +358,7 @@
 }
 
 .footer__column-heading {
-  padding-bottom: 20px;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -369,7 +369,7 @@
 }
 
 .footer__list-item {
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
